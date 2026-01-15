@@ -1,0 +1,6 @@
+Timeline_name:
+Timeline_start_row:
+Season_elo:
+all_time_elo:
+name_locations:
+name_sheet: 
