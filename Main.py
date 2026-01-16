@@ -133,9 +133,9 @@ def main():
                 time.sleep(1)
                 sheet.values().update(spreadsheetId=SPREADSHEET, range=time_line_name + "!" + x.get_Time_Line_column() +
                                       str(int(row) + offset), valueInputOption="USER_ENTERED", body=elo_body).execute()
-                time.sleep(1)
-                sheet.values().update(spreadsheetId=SPREADSHEET, range="People!" + x.getcolumn() + z,
-                                      valueInputOption="USER_ENTERED", body=elo_body).execute()
+              time.sleep(1)
+              sheet.values().update(spreadsheetId=SPREADSHEET, range="People!" + x.getcolumn() + z,
+                                    valueInputOption="USER_ENTERED", body=elo_body).execute()
 
       offset += 1
       print("line complete, current offset: " + str(offset))
@@ -148,3 +148,4 @@ def main():
 
 if __name__ == "__main__":
   main()
+
